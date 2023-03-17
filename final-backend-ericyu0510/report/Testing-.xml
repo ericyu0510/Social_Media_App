@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="7" time="0.615">
+ <testsuite name="validate functionality of login/register" timestamp="2022-11-16T22:53:38" hostname="localhost" time="0.615" errors="0" tests="7" skipped="0" disabled="0" failures="0">
+  <testcase classname="validate functionality of login/register" name="POST /register register a new user named testUser" time="0.252" />
+  <testcase classname="validate functionality of login/register" name="POST /login log in with testUser" time="0.125" />
+  <testcase classname="validate functionality of login/register" name="POST /article Create a new article" time="0.052" />
+  <testcase classname="validate functionality of login/register" name="GET /article Verify that the article was added" time="0.045" />
+  <testcase classname="validate functionality of login/register" name="PUT /headline Update the status headline" time="0.092" />
+  <testcase classname="validate functionality of login/register" name="GET /headline Verify the headline change" time="0.044" />
+  <testcase classname="validate functionality of login/register" name="PUT /logout Log out testUser" time="0.004" />
+ </testsuite>
+</testsuites>
